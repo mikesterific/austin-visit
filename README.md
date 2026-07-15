@@ -9,10 +9,10 @@ Pure static HTML/CSS/JS — no build step, no dependencies. Perfect for GitHub P
 - **Velvet curtain intro** that raises on click
 - **Live countdown** to the 6:15 PM Friday curtain (the Lamberts reservation)
 - **Three-act structure**: Friday arrival, Saturday full production, Sunday improvisation
-- **The Friday Night Route**: Hot Summer Nights as the starting point, then the Sixth Street
-  stroll, then East Sixth if energy allows — plus five "understudy" venues as flippable playbill
-  cards, with an "energy dial" that spotlights whatever matches the group's remaining energy
-- **East Sixth crawl route** with anchors and intermission stops
+- **The Nightcap Menu**: a deliberately gentle Friday — five venues as flippable playbill cards,
+  with an "energy dial" that spotlights whatever matches the group's remaining energy
+- **The Sixth Street Double Feature**: Saturday's finale covers both Sixths — the historic neon
+  strip first, then a migration east across I-35 for patios, live bands, and The White Horse
 - **Stage manager's checklists** that persist in `localStorage`
 - Weather and transportation program notes, plus the guest-facing summary
 

@@ -89,13 +89,12 @@
   const verdict = document.getElementById("energyVerdict");
 
   const verdicts = [
-    { max: 15, text: "Skip the route. Los Coast is already playing and no one has to stand up." },
-    { max: 30, text: "Understudy night: stay for Los Coast, or a gentle seated set with The Kingston Trio." },
-    { max: 45, text: "Stage 1 only: sample Hot Summer Nights, then a dignified retreat. (Parker Jazz Club also accepts the weary.)" },
-    { max: 60, text: "Stages 1 and 2: the festival, then a neon stroll down Sixth Street. East Sixth waits for Saturday." },
-    { max: 75, text: "The full route is in play — festival, Sixth Street, and a peek across the highway. Antone's stands by as the indoor alternative." },
-    { max: 90, text: "Run the whole route: Hot Summer Nights, the Sixth Street stroll, and an East Sixth finale." },
-    { max: 100, text: "Full airport adrenaline: the whole route — or defect to Qveen Herby at ACL Live and walk home like legends." },
+    { max: 15, text: "Perfect. Los Coast is already playing and no one has to stand up." },
+    { max: 30, text: "Stay for the band, order one more round, and call it a beautifully executed first night." },
+    { max: 50, text: "Keep the live music going gently: a short walk to Parker Jazz Club, or a seated folk set with The Kingston Trio." },
+    { max: 70, text: "Parker Jazz Club territory — live jazz, seated and sophisticated, home by a civilized hour." },
+    { max: 85, text: "Feeling bold? Antone's is the escalation clause. Just remember Saturday's Sixth Street marathon." },
+    { max: 100, text: "Airport adrenaline detected: Qveen Herby at ACL Live — but Saturday will collect interest." },
   ];
 
   function updateEnergy() {

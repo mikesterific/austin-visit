@@ -666,17 +666,6 @@ main { max-width: 62rem; margin: 0 auto; padding: 0 1.5rem; }
   min-height: 1.8em;
 }
 
-.friday-route {
-  margin: 0 auto 4rem;
-  padding: 2.8rem clamp(1.2rem, 4vw, 3rem) 1rem;
-  background:
-    radial-gradient(ellipse at 80% 0%, rgba(110,15,22,.35), transparent 55%),
-    radial-gradient(ellipse at 10% 100%, rgba(47,111,106,.22), transparent 55%),
-    #17130f;
-  border: 1px solid var(--gold-dim);
-  border-radius: 14px;
-}
-
 .option-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
