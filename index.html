@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Austin Weekend — A Reunion in Three Acts</title>
+  <meta name="description" content="Matt & Julie return to Texas. July 17–19, 2026. A theatrical itinerary for one unforgettable Austin weekend." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ CURTAIN ============ -->
+  <div class="curtain" id="curtain">
+    <div class="curtain-panel curtain-left"></div>
+    <div class="curtain-panel curtain-right"></div>
+    <div class="curtain-center">
+      <p class="curtain-eyebrow">The City of Austin, Texas &mdash; in association with one very enthusiastic host &mdash; presents</p>
+      <h1 class="curtain-title">The&nbsp;Austin<br/>Weekend</h1>
+      <p class="curtain-sub">A Reunion in Three Acts</p>
+      <p class="curtain-starring">starring <strong>Matt &amp; Julie</strong> <span class="dim">(of Florida)</span><br/>with <strong>Mike</strong> <span class="dim">(as The Local)</span></p>
+      <button class="btn-marquee" id="raiseCurtain">
+        <span class="btn-bulbs" aria-hidden="true"></span>
+        Raise the Curtain
+      </button>
+      <p class="curtain-dates">July 17 &ndash; 19, 2026 &middot; One weekend only</p>
+    </div>
+  </div>
+
+  <!-- ============ MARQUEE HERO ============ -->
+  <header class="hero" id="top">
+    <div class="hero-bulb-frame">
+      <p class="hero-eyebrow">Now playing &middot; one weekend only</p>
+      <h1 class="hero-title">The Austin Weekend</h1>
+      <p class="hero-tagline">It's been too long. Texas has been notified.</p>
+      <div class="hero-meta">
+        <span>Fri Jul 17 &ndash; Sun Jul 19, 2026</span>
+        <span class="dot">&bull;</span>
+        <span>Home base: W Austin, 200 Lavaca St</span>
+      </div>
+      <div class="countdown" id="countdown" aria-live="polite">
+        <div class="count-unit"><span id="cdDays">–</span><label>days</label></div>
+        <div class="count-unit"><span id="cdHours">–</span><label>hours</label></div>
+        <div class="count-unit"><span id="cdMins">–</span><label>min</label></div>
+        <div class="count-unit"><span id="cdSecs">–</span><label>sec</label></div>
+      </div>
+      <p class="count-caption" id="countCaption">until curtain</p>
+    </div>
+    <p class="hero-note">Schedules, weather, and wait times may change. The stage manager (Mike) will check radar, traffic, and venue calendars before each scene.</p>
+  </header>
+
+  <!-- ============ NAV ============ -->
+  <nav class="playbill-nav" id="nav">
+    <a href="#act1">Act I &middot; Friday</a>
+    <a href="#encore">Friday Night Route</a>
+    <a href="#act2">Act II &middot; Saturday</a>
+    <a href="#act3">Act III &middot; Sunday</a>
+    <a href="#notes">Program Notes</a>
+  </nav>
+
+  <main>
+
+    <!-- ============ SYNOPSIS ============ -->
+    <section class="synopsis">
+      <h2 class="section-kicker">Synopsis</h2>
+      <p class="synopsis-text">
+        Two old friends fly in from Florida after far too many years. Over one weekend they will
+        walk a lakefront at golden hour, eat Texas barbecue to live psychedelic soul, swim in
+        68-degree spring water in the middle of a Texas July, watch the sun fall into Lake Travis
+        with a house-brewed beer in hand, and — if all goes according to plan — two-step in an East
+        Austin honky-tonk at midnight. There is no intermission. There is, however, beer.
+      </p>
+    </section>
+
+    <!-- ============ ACT I ============ -->
+    <section class="act" id="act1">
+      <div class="act-header">
+        <span class="act-number">Act I</span>
+        <h2 class="act-title">The Arrival</h2>
+        <p class="act-subtitle">Friday, July 17 &mdash; Downtown Austin. Warm, humid, full of promise.</p>
+      </div>
+
+      <ol class="scene-list">
+        <li class="scene">
+          <div class="scene-time">Afternoon</div>
+          <div class="scene-body">
+            <h3>Scene 1 &middot; Check-In at the W</h3>
+            <p class="scene-loc">W Austin &middot; 200 Lavaca Street</p>
+            <p>Our travelers land, drop their bags, and take a breath. The first act is intentionally
+            self-directed — the Local is still en route, and Austin rewards a slow start.</p>
+          </div>
+        </li>
+
+        <li class="scene optional">
+          <div class="scene-time">4:45&ndash;5:45 PM</div>
+          <div class="scene-body">
+            <h3>Scene 2 &middot; The Lakefront Overture <span class="tag tag-optional">optional</span></h3>
+            <p class="scene-loc">Lady Bird Lake &middot; Ann &amp; Roy Butler Hike-and-Bike Trail</p>
+            <p>A self-guided stroll: south from the W toward Cesar Chavez, onto the trail at the
+            downtown waterfront, staying on the <strong>north side</strong> of the lake, drifting toward the
+            Congress Avenue Bridge with skyline and water on all sides. Turn back by 5:45.</p>
+            <blockquote class="guest-pitch">&ldquo;Take a relaxed walk down to the lake, wander toward the Congress Avenue Bridge, and be back at the hotel by 5:45 to freshen up for dinner.&rdquo;</blockquote>
+            <ul class="fine-print">
+              <li>Keep it to 30&ndash;45 minutes — bring water.</li>
+              <li>Do not turn the first hour of vacation into an accidental endurance event.</li>
+              <li>Check radar and trail detours before heading out.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="scene headliner">
+          <div class="scene-time">6:15 PM</div>
+          <div class="scene-body">
+            <h3>Scene 3 &middot; Dinner at Lamberts <span class="tag tag-reserved">reserved</span></h3>
+            <p class="scene-loc">Lamberts Downtown Barbecue &middot; 401 W. 2nd Street &middot; a five-minute walk from the W</p>
+            <p>Polished downtown Texas barbecue, cocktails, and a live band — a far smoother
+            arrival-night move than driving across the metro after a flight.</p>
+            <div class="marquee-strip">
+              <span class="strip-label">On stage during dinner</span>
+              <span class="strip-act">Los Coast &middot; 6:30&ndash;9:00 PM</span>
+              <span class="strip-genre">psychedelic soul &middot; funk &middot; rock &middot; gospel &middot; blues</span>
+            </div>
+            <p>The band overlaps dinner, so the table can listen first and decide the rest of the night
+            in real time — no tickets, no logistics, no negotiating with travel fatigue.</p>
+            <p class="ext-link"><a href="https://lambertsaustin.com/live-music-special-events/" target="_blank" rel="noopener">Lamberts live music calendar &rarr;</a></p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ ENCORE MENU ============ -->
+    <section class="encore" id="encore">
+      <div class="act-header">
+        <span class="act-number">Interlude</span>
+        <h2 class="act-title">The Friday Night Route</h2>
+        <p class="act-subtitle">After Lamberts, the plan is a route, not a menu: a free festival, the neon strip, and &mdash; if the tank allows &mdash; the east side. Nothing ticketed, everything abandonable, and five understudies waiting in the wings.</p>
+      </div>
+
+      <div class="energy-console">
+        <label class="energy-label" for="energyDial">How alive is the group after dinner?</label>
+        <input type="range" id="energyDial" min="0" max="100" value="50" step="1"
+               aria-label="Group energy level" />
+        <div class="energy-scale">
+          <span>&ldquo;We flew across the country today&rdquo;</span>
+          <span>&ldquo;Unexplained airport adrenaline&rdquo;</span>
+        </div>
+        <p class="energy-verdict" id="energyVerdict"></p>
+      </div>
+
+      <div class="friday-route">
+        <div class="route">
+          <div class="route-stop anchor">
+            <span class="route-marker">1</span>
+            <div class="route-body">
+              <h3>Starting Point &middot; Hot Summer Nights</h3>
+              <p class="scene-loc">Red River Cultural District &middot; Mohawk area &middot; a short rideshare or ~20-minute walk from Lamberts</p>
+              <p>A free, multi-venue festival: wander the district, listen from the sidewalk, and
+              step into whichever room sounds best &mdash; funk, rock, punk, and beyond. No tickets
+              bought in advance means nothing wasted if the group fades early.</p>
+              <p class="ext-link"><a href="https://redriverculturaldistrict.org/hot-summer-nights/" target="_blank" rel="noopener">Festival info &rarr;</a></p>
+            </div>
+          </div>
+
+          <div class="route-stop">
+            <span class="route-marker">2</span>
+            <div class="route-body">
+              <h3>Then &middot; The Sixth Street Stroll</h3>
+              <p class="scene-loc">Historic Sixth Street &middot; two blocks south of Red River &middot; free</p>
+              <p>Drift south from the festival and walk the most famous strip in Austin nightlife,
+              music pouring out of every open door. World-class people-watching, and only walk
+              into a bar that earns it &mdash; the street itself is the show.</p>
+              <p class="fine-print-line">Rowdy, crowded, and more shot-bar chaos than curated listening &mdash; this is Austin's id, not its concert hall.</p>
+            </div>
+          </div>
+
+          <div class="route-stop anchor grand">
+            <span class="route-marker">3</span>
+            <div class="route-body">
+              <h3>Energy Permitting &middot; East Sixth <span class="tag tag-optional">optional finale</span></h3>
+              <p class="scene-loc">Across I-35 &middot; a short walk or five-minute rideshare east</p>
+              <p>Keep heading east under the highway and the volume drops while the quality rises:
+              patios, serious cocktails at Whisler&rsquo;s, and honky-tonk country at The White Horse.
+              Consider it a location scout for Saturday&rsquo;s grand finale &mdash; a taste tonight,
+              the full production tomorrow.</p>
+              <p class="fine-print-line">The escape hatch is always open: a rideshare back to the W takes ten minutes from anywhere on the route.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="checklist-heading">The Understudies</h3>
+      <p class="checklist-sub">Five alternates if the group wants a seat, a stage, or air conditioning instead of the route.</p>
+
+      <div class="option-grid" id="optionGrid">
+
+        <article class="option-card" data-option="lamberts" data-min="0" data-max="30" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <span class="option-index">No. 1</span>
+              <h3>Stay for Los Coast</h3>
+              <p class="option-style">Psychedelic soul &middot; funk &middot; rock &middot; gospel</p>
+              <p class="option-where">Right there at Lamberts &middot; zero steps required</p>
+              <p class="option-teaser">The easiest option by a mile. Finish dinner and keep listening — no walking, no rideshare, no line.</p>
+              <span class="flip-hint">Tap for the full pitch</span>
+            </div>
+            <div class="card-back">
+              <h4>The Case</h4>
+              <p>Live Austin music with literally no logistics. The group is already seated, the sound is local, and everyone can measure their remaining energy in real time.</p>
+              <h4>Best For</h4>
+              <p>Guests who want live music but are honest about the flight.</p>
+              <h4>The Tradeoff</h4>
+              <p>More lively-dinner-performance than standalone concert.</p>
+              <a class="card-link" href="https://lambertsaustin.com/live-music-special-events/" target="_blank" rel="noopener">Lamberts calendar &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="option-card" data-option="parker" data-min="25" data-max="55" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <span class="option-index">No. 2</span>
+              <h3>Parker Jazz Club</h3>
+              <p class="option-style">Jazz &middot; New Orleans-influenced</p>
+              <p class="option-where">Downtown &middot; short walk from Lamberts</p>
+              <p class="option-teaser">Intimate, seated, underground, and built for actually listening. Cocktails included; chaos not.</p>
+              <span class="flip-hint">Tap for the full pitch</span>
+            </div>
+            <div class="card-back">
+              <h4>The Pitch</h4>
+              <blockquote>&ldquo;We can have drinks in an intimate underground jazz club and pretend we are sophisticated adults.&rdquo;</blockquote>
+              <h4>Best For</h4>
+              <p>A relaxed, classy first night. The host's pick for best balance of comfort and quality.</p>
+              <h4>The Tradeoff</h4>
+              <p>Less distinctly Texas than blues or country. Tickets or reservations may be wise.</p>
+              <a class="card-link" href="https://www.parkerjazzclub.com/" target="_blank" rel="noopener">parkerjazzclub.com &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="option-card" data-option="antones" data-min="45" data-max="75" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <span class="option-index">No. 3</span>
+              <h3>Antone&rsquo;s Nightclub</h3>
+              <p class="option-style">Blues &middot; the real thing</p>
+              <p class="option-where">Downtown &middot; 10&ndash;15 minute walk</p>
+              <p class="option-teaser">One of the clubs that built Austin's music identity. The strongest choice for a historic, unmistakably Austin night.</p>
+              <span class="flip-hint">Tap for the full pitch</span>
+            </div>
+            <div class="card-back">
+              <h4>The Pitch</h4>
+              <blockquote>&ldquo;You're in Austin, so we can hear serious blues at one of the clubs that helped shape the city's music identity.&rdquo;</blockquote>
+              <h4>Best For</h4>
+              <p>Classic Austin atmosphere and stronger live-show energy.</p>
+              <h4>The Tradeoff</h4>
+              <p>Louder, busier, and more standing-oriented than Parker.</p>
+              <a class="card-link" href="https://antonesnightclub.com/" target="_blank" rel="noopener">antonesnightclub.com &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="option-card" data-option="kingston" data-min="10" data-max="40" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <span class="option-index">No. 4</span>
+              <h3>The Kingston Trio</h3>
+              <p class="option-style">Classic American folk &middot; The 04 Center</p>
+              <p class="option-where">~8:00&ndash;10:30 PM &middot; rideshare required</p>
+              <p class="option-teaser">A calm, seated concert of familiar harmonies. The gentlest true concert on the menu.</p>
+              <span class="flip-hint">Tap for the full pitch</span>
+            </div>
+            <div class="card-back">
+              <h4>The Pitch</h4>
+              <blockquote>&ldquo;We can sit down, hear classic folk music, and remain functional human beings on Saturday morning.&rdquo;</blockquote>
+              <h4>Best For</h4>
+              <p>Folk fans, nostalgia, and anyone protecting Saturday.</p>
+              <h4>The Tradeoff</h4>
+              <p>Pulls the group away from downtown; a rideshare each way.</p>
+              <a class="card-link" href="https://www.04center.com/" target="_blank" rel="noopener">04center.com &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="option-card" data-option="qveen" data-min="80" data-max="100" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <span class="option-index">No. 5</span>
+              <h3>Qveen Herby at ACL Live</h3>
+              <p class="option-style">Hip-hop &middot; pop &middot; theatrical spectacle</p>
+              <p class="option-where">9:00 PM &middot; steps from the W and Lamberts</p>
+              <p class="option-teaser">The easiest big-production concert in town — and afterward it's a straight walk back to the hotel.</p>
+              <span class="flip-hint">Tap for the full pitch</span>
+            </div>
+            <div class="card-back">
+              <h4>The Pitch</h4>
+              <blockquote>&ldquo;We can see a full-scale concert and then walk back to the hotel without entering transportation purgatory.&rdquo;</blockquote>
+              <h4>Best For</h4>
+              <p>Guests who land with unexpected airport adrenaline and want a big show.</p>
+              <h4>The Tradeoff</h4>
+              <p>Highest energy on the menu — the furthest from the low-key plan.</p>
+              <a class="card-link" href="https://www.acllive.com/" target="_blank" rel="noopener">acllive.com &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="critics-corner">
+        <h3>The Director&rsquo;s Ranking of the Understudies</h3>
+        <ol class="ranking">
+          <li><strong>Parker Jazz Club</strong> — best balance of comfort and quality</li>
+          <li><strong>Antone&rsquo;s</strong> — best classic Austin experience</li>
+          <li><strong>Los Coast at Lamberts</strong> — best low-effort choice</li>
+          <li><strong>The Kingston Trio</strong> — best mellow seated concert</li>
+          <li><strong>Qveen Herby</strong> — best high-energy major show</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ACT II ============ -->
+    <section class="act" id="act2">
+      <div class="act-header">
+        <span class="act-number">Act II</span>
+        <h2 class="act-title">Springs, Hills &amp; Sunset</h2>
+        <p class="act-subtitle">Saturday, July 18 &mdash; The full Austin production. Hot, humid, and worth every degree.</p>
+      </div>
+
+      <ol class="scene-list">
+        <li class="scene headliner">
+          <div class="scene-time">1:30&ndash;3:30 PM</div>
+          <div class="scene-body">
+            <h3>Scene 1 &middot; Barton Springs Pool</h3>
+            <p class="scene-loc">2131 William Barton Drive &middot; Zilker Park</p>
+            <p>Three acres of spring-fed water holding steady at <strong>68&ndash;70&deg;F</strong> — the single best
+            answer to a Texas July afternoon. Swim, float, and let Florida and Texas call a truce.</p>
+            <details class="details-card">
+              <summary>Stage directions &amp; props</summary>
+              <ul>
+                <li><strong>Bring:</strong> swimsuit, towel, water, sunscreen, sandals, and a dry bag for phones.</li>
+                <li>Pool hours generally 5:00 AM&ndash;10:00 PM; guarded swimming from 8:00 AM.</li>
+                <li>Barton Springs reopened after a June 2026 flooding closure and is currently listed as open — <strong>confirm status Saturday morning</strong>.</li>
+                <li><a href="https://www.austintexas.gov/services/visit-barton-springs-pool" target="_blank" rel="noopener">Official pool status &rarr;</a></li>
+              </ul>
+            </details>
+          </div>
+        </li>
+
+        <li class="scene">
+          <div class="scene-time">3:30&ndash;4:40 PM</div>
+          <div class="scene-body">
+            <h3>Scene 2 &middot; Costume Change</h3>
+            <p class="scene-loc">Back at the W Austin</p>
+            <p>Shower, change, cool down, and avoid arriving at sunset dinner smelling like a
+            municipal swimming facility. Leave the W around <strong>4:40 PM</strong> to meet Mike
+            at the brewery around 5:30 for the scenic-drive curtain call.</p>
+          </div>
+        </li>
+
+        <li class="scene headliner">
+          <div class="scene-time">5:30&ndash;6:40 PM &middot; 60-minute core loop</div>
+          <div class="scene-body">
+            <h3>Scene 3 &middot; Mike&rsquo;s Lake Travis Scenic Drive <span class="tag tag-optional">the local&rsquo;s cut</span></h3>
+            <p class="scene-loc">Meet at the OTXBC parking lot &middot; 60&ndash;70 minutes with the dam stop &middot; returns in time for sunset</p>
+            <blockquote class="guest-pitch">&ldquo;Before we eat, let me show you my favorite part of Austin.&rdquo;</blockquote>
+            <p>This isn&rsquo;t transportation &mdash; the drive is the attraction. A slow loop through
+            the hills that makes the brewery arrival feel earned: city, then Hill Country, then
+            Lake Travis, then back to the deck just as the light turns gold.</p>
+            <table class="flow-table">
+              <tr><td>~5:30</td><td><strong>Leg 1</strong> &middot; North on Comanche Trail (~15 min) — one of the prettiest roads in Austin: winding Hill Country curves, Lake Travis appearing through the trees, custom homes tucked into the hills. No hurry.</td></tr>
+              <tr><td>~5:45</td><td><strong>Stop</strong> &middot; Mansfield Dam overlook (10&ndash;15 min) — walk out, stretch legs, take photos. Guide&rsquo;s talking points: Lake Travis feeding Lake Austin, the flood-control story, and how dramatically the water level swings.</td></tr>
+              <tr><td>~6:00</td><td><strong>Leg 2</strong> &middot; West to Lakeway (~10&ndash;15 min) — golf communities, oak and cedar, lake views whenever they appear. This is where visitors usually say <em>&ldquo;I had no idea Austin looked like this.&rdquo;</em></td></tr>
+              <tr><td>~6:15</td><td><strong>Leg 3</strong> &middot; Loop back through Hudson Bend (~15 min) — a fresh angle on the lake instead of retracing the route, with Austin&rsquo;s boom and boating culture as material.</td></tr>
+              <tr><td>~6:30</td><td><strong>Leg 4</strong> &middot; Hudson Bend back to the brewery (~10 min) — arrive about 6:40, timed so beer, decks, and shop-browsing lead straight into sunset.</td></tr>
+            </table>
+            <details class="details-card">
+              <summary>The guide&rsquo;s monologue &amp; fine print</summary>
+              <ul>
+                <li>Conversation material: why Austin sprawled west into the hills, how the lake changes with rainfall, the &ldquo;Keep Austin Weird&rdquo; downtown vs. upscale Lakeway/Westlake contrast, and Mike&rsquo;s own favorite roads and memories.</li>
+                <li>Optional pit stop in Lakeway for coffee, ice cream, or a cold drink — only if something catches the eye. It turns the loop into the 75-minute version, so skip it if sunset-deck time matters more.</li>
+                <li>Why it works: guests arrive at the brewery feeling like they&rsquo;ve explored what makes Lake Travis special, not like they&rsquo;ve pulled up to a restaurant.</li>
+                <li>Skip or shorten freely if thunderstorms or traffic intrude — the sunset is still the headliner.</li>
+              </ul>
+            </details>
+          </div>
+        </li>
+
+        <li class="scene headliner">
+          <div class="scene-time">6:45 PM &rarr; 9:00 PM</div>
+          <div class="scene-body">
+            <h3>Scene 4 &middot; Oasis Texas Brewing Company</h3>
+            <p class="scene-loc">6550 Comanche Trail #301 &middot; 450 feet above Lake Travis &middot; sunset at approximately <strong>8:32 PM</strong></p>
+            <p>A lakeside brewery and restaurant perched high over Lake Travis: house-brewed beer, a
+            locally sourced menu (the Pimento Cheese Burger has a fan club), indoor and outdoor
+            seating across multiple levels, and a sunset view that rivals any in the Hill Country.</p>
+            <table class="flow-table">
+              <tr><td>6:45&ndash;7:00</td><td>Arrive, claim a lake-view spot, order the first round of house beer</td></tr>
+              <tr><td>7:00&ndash;8:15</td><td>Dinner and drinks</td></tr>
+              <tr><td>8:15&ndash;8:50</td><td>Sunset and deck time — the show within the show</td></tr>
+              <tr><td>~9:00</td><td>Depart for East Sixth</td></tr>
+            </table>
+            <ul class="fine-print">
+              <li>Saturday hours: taproom noon&ndash;10 PM, kitchen noon&ndash;9 PM — dinner fits comfortably before the kitchen closes.</li>
+              <li>OTXBC takes reservations on OpenTable — booking ahead beats hoping; either way, arrive before sunset for the best deck spots.</li>
+              <li>Hours can shift with weather — confirm Saturday via their site or social media.</li>
+              <li>Parking: dirt lot plus a three-floor public garage.</li>
+            </ul>
+            <p class="ext-link"><a href="https://www.otxbc.com/" target="_blank" rel="noopener">otxbc.com &rarr;</a></p>
+          </div>
+        </li>
+      </ol>
+
+      <!-- East Sixth Finale -->
+      <div class="finale" id="finale">
+        <div class="act-header finale-header">
+          <span class="act-number">Act II &middot; Finale</span>
+          <h2 class="act-title">The East Sixth Crawl</h2>
+          <p class="act-subtitle">Depart the brewery ~9:00 PM &middot; arrive East Sixth 9:45&ndash;10:00 &middot; rideshare strongly recommended.
+          Not a rigid bar-by-bar military campaign &mdash; two music anchors, with patios and cocktails in between.</p>
+        </div>
+
+        <div class="route">
+          <div class="route-stop anchor">
+            <span class="route-marker">1</span>
+            <div class="route-body">
+              <h3>Anchor &middot; Hotel Vegas + Volstead Lounge</h3>
+              <p class="scene-loc">East Sixth near Chicon &middot; connected neighboring venues</p>
+              <p>One complex, many rooms: live indie, garage, psychedelic, punk, or Latin-influenced
+              bands at Hotel Vegas; DJs and dancing at Volstead; a busy courtyard in between.
+              Sample everything without relocating the group.</p>
+              <ul class="fine-print">
+                <li>Previously listed: &ldquo;Fear and Loathing in Hotel Vegas&rdquo; through the evening; Los Desechos ~10 PM; DJ Ori&oacute;n Garc&iacute;a at Volstead 10 PM&ndash;2 AM.</li>
+                <li>Reconfirm Saturday — third-party listings drift.</li>
+              </ul>
+              <p class="ext-link"><a href="https://hotelvegasaustin.com/" target="_blank" rel="noopener">hotelvegasaustin.com</a> &middot; <a href="https://volsteadlounge.com/" target="_blank" rel="noopener">volsteadlounge.com</a></p>
+            </div>
+          </div>
+
+          <div class="route-stop">
+            <span class="route-marker">2</span>
+            <div class="route-body">
+              <h3>Intermission Drinks &middot; pick any</h3>
+              <div class="mini-cards">
+                <div class="mini-card">
+                  <h4>The Liberty</h4>
+                  <p>Casual patio, relaxed locals. An easy drink and a break from the loud rooms.</p>
+                  <a href="https://www.thelibertyaustin.com/" target="_blank" rel="noopener">site &rarr;</a>
+                </div>
+                <div class="mini-card">
+                  <h4>Shangri-La</h4>
+                  <p>Affordable drinks, unpretentious patio, zero nightclub theater.</p>
+                  <a href="https://www.shangrilaaustin.com/" target="_blank" rel="noopener">site &rarr;</a>
+                </div>
+                <div class="mini-card">
+                  <h4>Whisler&rsquo;s</h4>
+                  <p>Historic building, serious cocktails, mezcal bar upstairs. The polished stop.</p>
+                  <a href="https://whislersatx.com/" target="_blank" rel="noopener">site &rarr;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="route-stop anchor grand">
+            <span class="route-marker">3</span>
+            <div class="route-body">
+              <h3>Grand Finale &middot; The White Horse</h3>
+              <p class="scene-loc">500 Comal Street &middot; open until 2 AM &middot; 21+</p>
+              <p>A real East Austin honky-tonk: live Texas country seven nights a week, two-stepping
+              on the floor, and the most distinctly Texas ending available to this production.</p>
+              <blockquote class="guest-pitch">&ldquo;We can end the night with live country music and two-stepping at an East Austin honky-tonk.&rdquo;</blockquote>
+              <p class="fine-print-line">It may be crowded, loud, and sweaty. In other words: Texas will have completed installation.</p>
+              <p class="ext-link"><a href="https://www.thewhitehorseaustin.com/" target="_blank" rel="noopener">thewhitehorseaustin.com &rarr;</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACT III ============ -->
+    <section class="act act3" id="act3">
+      <div class="act-header">
+        <span class="act-number">Act III</span>
+        <h2 class="act-title">The Sequel Is Unwritten</h2>
+        <p class="act-subtitle">Sunday, July 19 &mdash; Departure day. No fixed plan yet.</p>
+      </div>
+      <p class="act3-text">
+        Perhaps breakfast tacos. Perhaps a slow coffee and a recap of everything Saturday did to us.
+        Perhaps simply the long goodbye at the curb, already negotiating the date of the next visit.
+        Some acts are best improvised.
+      </p>
+    </section>
+
+    <!-- ============ PROGRAM NOTES ============ -->
+    <section class="notes" id="notes">
+      <div class="act-header">
+        <span class="act-number">Appendix</span>
+        <h2 class="act-title">Program Notes</h2>
+      </div>
+
+      <div class="notes-grid">
+        <div class="note-card">
+          <h3>Weather Strategy</h3>
+          <h4>Friday</h4>
+          <p>Warm, humid, mostly cloudy; possible afternoon or early-evening storms. The lake walk
+          stays optional; dinner and nearly every music option are indoors.</p>
+          <h4>Saturday</h4>
+          <p>Hot and humid, with storm risk concentrated late afternoon into early evening and
+          improvement possible at night. Check Barton Springs status and radar in the morning;
+          keep the scenic drive flexible; OTXBC has indoor seating if clouds mute the sunset (though
+          the brewery itself sometimes closes for severe weather — check before driving out).
+          East Sixth survives all weather.</p>
+          <p class="ext-link"><a href="https://forecast.weather.gov/" target="_blank" rel="noopener">forecast.weather.gov &rarr;</a></p>
+        </div>
+
+        <div class="note-card">
+          <h3>Transportation</h3>
+          <h4>Friday</h4>
+          <p>Everything walks from the W: the lake, Lamberts, and most downtown venues. The Friday
+          route&rsquo;s starting point in the Red River district is a ~20-minute walk or a short
+          rideshare from Lamberts; rideshare is also the move for The 04 Center or a late hop
+          across I-35.</p>
+          <h4>Saturday</h4>
+          <p>Wheels required: Barton Springs, the Lake Travis scenic drive, the brewery, East Sixth.
+          Mike drives the scenic loop — that&rsquo;s the point of it.</p>
+          <p class="strong-note">Strong recommendation: rideshare for the final stretch if everyone is
+          drinking. Driving from the brewery to East Sixth and then hunting parking is a poor closing act.</p>
+        </div>
+      </div>
+
+      <!-- Wardrobe -->
+      <div class="wardrobe">
+        <h3 class="checklist-heading">The Wardrobe Department</h3>
+        <p class="checklist-sub">Costume notes for the principal cast. No fittings required.</p>
+
+        <div class="notes-grid">
+          <div class="note-card">
+            <h3>Act I Costumes <span class="tag tag-reserved">smart casual</span></h3>
+            <p>Lamberts is comfortably upscale but very Austin — no jacket or tie necessary.</p>
+            <div class="mini-cards">
+              <div class="mini-card">
+                <h4>Matt</h4>
+                <ul class="fine-print">
+                  <li>Nice jeans or chinos</li>
+                  <li>Polo or short-sleeve button-down</li>
+                  <li>Boots, loafers, or clean sneakers</li>
+                </ul>
+              </div>
+              <div class="mini-card">
+                <h4>Julie</h4>
+                <ul class="fine-print">
+                  <li>Summer dress, blouse with jeans, or another smart-casual outfit</li>
+                  <li>Comfortable shoes for walking between venues</li>
+                </ul>
+              </div>
+            </div>
+            <p class="fine-print-line">One outfit covers the whole evening — dinner at Lamberts, the
+            festival-to-Sixth-Street route, or any understudy venue. With the route on foot,
+            comfortable shoes get top billing.</p>
+          </div>
+
+          <div class="note-card">
+            <h3>Act II Costumes <span class="tag tag-optional">casual</span></h3>
+            <h4>Daytime</h4>
+            <ul class="fine-print">
+              <li>Swimsuit and towel</li>
+              <li>Sandals and sunscreen</li>
+              <li>Comfortable casual clothes</li>
+            </ul>
+            <p>After Barton Springs, the costume change back at the W handles the transition.</p>
+            <h4>Evening</h4>
+            <ul class="fine-print">
+              <li>Casual summer attire</li>
+              <li>Comfortable walking shoes</li>
+              <li>A light layer for after sunset, if you'd like one (optional)</li>
+            </ul>
+            <p class="fine-print-line">The brewery is very casual, and the same outfit is perfect
+            for exploring East Sixth afterward. With several venues on foot, comfort beats
+            dressing up.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Checklists -->
+      <div class="checklists">
+        <h3 class="checklist-heading">Stage Manager&rsquo;s Checklists</h3>
+        <p class="checklist-sub">Checkboxes save in this browser, so day-of progress survives a refresh.</p>
+
+        <div class="checklist-columns">
+          <div class="checklist" data-list="friday">
+            <h4>Friday Afternoon</h4>
+            <label><input type="checkbox" data-key="fri-radar" /> Check Austin radar</label>
+            <label><input type="checkbox" data-key="fri-arrival" /> Confirm guests&rsquo; arrival time</label>
+            <label><input type="checkbox" data-key="fri-lamberts" /> Confirm Lamberts reservation</label>
+            <label><input type="checkbox" data-key="fri-hsn" /> Check the Hot Summer Nights lineup and venue map</label>
+            <label><input type="checkbox" data-key="fri-tickets" /> Check understudy tickets: Parker, Antone&rsquo;s, ACL Live, 04 Center</label>
+            <label><input type="checkbox" data-key="fri-choose" /> Gauge the group&rsquo;s energy after Los Coast, then launch the route or an understudy</label>
+          </div>
+
+          <div class="checklist" data-list="saturday">
+            <h4>Saturday Morning</h4>
+            <label><input type="checkbox" data-key="sat-springs" /> Confirm Barton Springs is open</label>
+            <label><input type="checkbox" data-key="sat-weather" /> Check hourly weather &amp; flood alerts</label>
+            <label><input type="checkbox" data-key="sat-oasis" /> Confirm OTXBC hours (and book on OpenTable if possible)</label>
+            <label><input type="checkbox" data-key="sat-venues" /> Reconfirm Hotel Vegas, Volstead &amp; White Horse schedules</label>
+            <label><input type="checkbox" data-key="sat-bonnell" /> Decide whether the scenic drive runs full-length or gets trimmed</label>
+          </div>
+
+          <div class="checklist" data-list="oasis">
+            <h4>Before Leaving the Brewery</h4>
+            <label><input type="checkbox" data-key="oa-ride" /> Request rideshare before the post-sunset crowd</label>
+            <label><input type="checkbox" data-key="oa-latenight" /> Check which East Sixth venue has the strongest late-night bill</label>
+            <label><input type="checkbox" data-key="oa-energy" /> Preserve energy for The White Horse &mdash; or accept that sunset beers won</label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GUEST SUMMARY ============ -->
+    <section class="telegram">
+      <h2 class="section-kicker">A Note for the Guests</h2>
+      <div class="telegram-card">
+        <p><strong>Friday:</strong> After checking in, take an optional walk along Lady Bird Lake, then
+        meet for our 6:15 dinner reservation at Lamberts. A local psychedelic-soul and funk band will
+        be playing, and afterward the plan is a wander: the free Hot Summer Nights festival in the
+        Red River district, then a neon stroll down the legendary Sixth Street, and &mdash; if we still
+        have energy &mdash; a peek at East Sixth. If we&rsquo;d rather sit down, jazz, blues, folk, or a
+        full-scale concert are all easy substitutes.</p>
+        <p><strong>Saturday:</strong> We&rsquo;ll swim at Barton Springs, return to the hotel to reset, then
+        take a scenic drive around Lake Travis &mdash; Hill Country roads, the Mansfield Dam overlook,
+        Lakeway, and Hudson Bend &mdash; before dinner and house-brewed beer at Oasis Texas
+        Brewing Company for the Lake Travis sunset.
+        Afterward, we&rsquo;ll explore East Sixth for live music, cocktails, DJs, and finish with country
+        music and dancing at The White Horse.</p>
+        <p><strong>What to pack:</strong> Smart casual for Friday dinner (no jacket or tie needed —
+        this is Austin), plus a swimsuit, sandals, and comfortable casual summer clothes for
+        Saturday. Comfortable walking shoes matter more than style points all weekend.</p>
+        <p class="telegram-sig">&mdash; Your host, who has been looking forward to this for a very long time</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer-title">The Austin Weekend</p>
+    <p>July 17&ndash;19, 2026 &middot; Austin, Texas &middot; No refunds, only memories.</p>
+    <a class="back-top" href="#top">&uarr; Back to the marquee</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
