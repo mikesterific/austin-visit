@@ -146,7 +146,7 @@
   /* ---------- Scroll reveal ---------- */
 
   const revealTargets = document.querySelectorAll(
-    ".scene, .option-card, .route-stop, .note-card, .checklist, .telegram-card, .critics-corner, .energy-console, .synopsis-text, .act3-text"
+    ".scene, .option-card, .route-stop, .note-card, .checklist, .telegram-card, .critics-corner, .energy-console, .synopsis-text, .act3-text, .locked-callout, .story-card"
   );
 
   revealTargets.forEach(function (t) {
